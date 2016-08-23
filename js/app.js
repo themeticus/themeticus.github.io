@@ -7,5 +7,5 @@ if (navigator.serviceWorker) {
             console.error(e);
         })
 } else {
-    console.log('Service Worker is not supported in this browser.')
+    console.log('haaties-brudder')
 }
