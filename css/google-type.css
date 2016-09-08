@@ -73,7 +73,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-crow-pitcher h2 { color: white; font-family: 'Questrial', sans-serif; font-size: 14px; letter-spacing: 6px; line-height: 1.8em; margin-bottom: calc(4 * 20px); margin-top: calc(2 * 20px); text-align: center; text-transform: uppercase; }
 .section-crow-pitcher h2 span {    display: inline-block; outline: 1px solid white; padding: 1em; }
 .section-crow-pitcher .container {    width: 100%; }
-.section-crow-pitcher .container p { font-family: 'Old Standard TT', serif; font-size: 24px; margin-bottom: calc(4 * 20px); }
+.section-crow-pitcher .container p { font-family: 'Old Standard TT', serif; font-size: 24px; margin-bottom: calc(4 * 20px); text-align:center;  }
 .section-crow-pitcher .container p.drop-p { }
 .section-crow-pitcher em { color: white; display: block; font-family: 'Old Standard TT', serif; font-size: 24px; text-align: center; margin-bottom: calc(4 * 20px); }
 .section-crow-pitcher ul { font-family: 'Old Standard TT', serif; font-size: 14px; list-style-type: none; margin-bottom: calc(2 * 20px); padding: 0; text-align: center; }
@@ -540,7 +540,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-the-fox-and-the-grapes .container { width: 100%;  }
     .section-the-fox-and-the-grapes h2,    .section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 
-    .section-moon-mother .container { width: 100%; }
+    .section-moon-mother .container { width: 90%; }
     .section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
     .section-moon-mother h2, .section-moon-mother p { width: 100%; }
     .section-moon-mother h2 { font-size: 32px; text-align: center; }
@@ -600,20 +600,10 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 
     .section-crow-pitcher { padding: calc(4 * 20px); }
     .section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
-    .section-crow-pitcher .container p { font-size: 48px; }
+    .section-crow-pitcher .container p { font-size: 48px; text-align:center; }
     .section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
     .section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
     .section-crow-pitcher hr { width: 2.5%;    }
-
-	.section-pomegranate {
-	background-image: url(../images/pomegranate/pomegranate-400.png), url(../images/pomegranate/apple-400.png), url(../images/pomegranate/bkg.jpg);
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-position: -170px 0, 140% 100%, center center;
-	-webkit-background-size: auto, auto, cover;
-	-moz-background-size: auto, auto, cover;
-	-o-background-size: auto, auto, cover;
-	background-size: auto, auto, cover;
-	}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -622,19 +612,10 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .section-crow-pitcher .container p { font-size: 104px; }
+    .section-crow-pitcher .container p { font-size: 104px; text-align:center;  }
     .section-crow-pitcher .container .drop-p { font-size: 24px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
     .section-crow-pitcher em { font-size: 24px; }
 
-	.section-pomegranate {
-	background-image: url(../images/pomegranate/pomegranate-400.png), url(../images/pomegranate/apple-400.png), url(../images/pomegranate/bkg.jpg);
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-position: -90px 0, 115% 100%, center center;
-	-webkit-background-size: auto, auto, cover;
-	-moz-background-size: auto, auto, cover;
-	-o-background-size: auto, auto, cover;
-	background-size: auto, auto, cover;
-	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
