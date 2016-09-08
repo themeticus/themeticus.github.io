@@ -1,47 +1,280 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<title>pixels on perspective</title>
-	<meta charset="UTF-8">
-	<!--<base href="https://themeticus.github.io/" target="_blank">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
-	-->
-	<link rel="shortcut icon" type="image/x-icon" href="img/1ove.png">
-	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
-	<style type="text/css">body { background-color: black; font-family: 'Old Standard TT', serif; margin:0; padding:;}
-	a {
-		text-decoration: none
-	}
-	.sample#darwin {
-  background: #ede0ce;
-  padding: 150px 0;
-  text-align: center; }
-  .sample#darwin .text {
-    margin: 0 auto;
-    padding: 0;
-    width: 90%; }
-  .sample#darwin h1 {
-    color: #161616;
-    font: 400 58px/58px 'old standard tt';
-    margin: 0 0 32px 0;
-    }
-    .sample#darwin h1.small {
-      font-size: 18px; }
-  .sample#darwin h2 {
-    color: #161616;
-    font: 400 28px/28px 'old standard tt';
-    margin: 160px 0 14px 0; }
-  .sample#darwin h3 {
-    color: #161616;
-    font: 400 14px/21px 'old standard tt';
-    margin: 0 0 80px 0; }
-  .bio  {
-    color: #fff;
-}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-div>span {
-    text-transform: uppercase;
-    font-family: monospace;
+        <link rel="shortcut icon" type="image/x-icon" href="images/1ove.png">
+
+
+        <title>themeticus</title>
+
+        <!-- Google web Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Fauna+One|Oleo+Script|Fugaz+One|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Astronomer" -->
+        <link href='https://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The River" -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:800|Gentium+Basic:400,400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Crow and the Pitcher" -->
+        <link href='https://fonts.googleapis.com/css?family=Questrial|Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Fox and the Grapes" -->
+        <link href='https://fonts.googleapis.com/css?family=Ovo|Muli:300' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Moon and Her Mother: Anon03" -->
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Vast+Shadow|Oswald:300|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Prophet" -->
+        <link href='https://fonts.googleapis.com/css?family=Neuton:300' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The wolves, the sheep, and the ram" -->
+        <link href='https://fonts.googleapis.com/css?family=Quattrocento|Fanwood+Text' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Boy Bathing" -->
+        <link href='https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:700' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Serpent and The Eagle  " -->
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Fir-Tree" -->
+        <link href='https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded|Slabo+13px|Ultra' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The fox and the lion" -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lora:400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Horse and the Groom" -->
+        <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Crow and The Raven" -->
+        <link href='https://fonts.googleapis.com/css?family=Nixie+One|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The North Wind and The Sun" -->
+        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Old Hound" -->
+        <link href='https://fonts.googleapis.com/css?family=Almendra+Display|Cardo' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "Jupiter And The Tortoise" -->
+        <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "Grief and His Due" -->
+        <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Amiri' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Trees And The Axe" -->
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fonts for "The Bee and Jupiter" -->
+        <link href='https://fonts.googleapis.com/css?family=Yeseva+One|Merriweather+Sans:300|Merriweather:400italic' rel='stylesheet' type='text/css'>
+
+    		<!-- Google web fonts for "The Pomegranate, the Apple-Tree, and the Bramble" -->
+    		<link href='https://fonts.googleapis.com/css?family=Mr+De+Haviland|Neuton:200,700,400italic' rel='stylesheet' type='text/css'>
+
+        <!-- Google web fotns for "Wolf in Sheep's Clothing" -->
+        <link href="https://fonts.googleapis.com/css?family=Scope+One|Shrikhand|Sansita+One" rel="stylesheet">
+
+        <link href="css/google-type.css" rel="stylesheet">
+
+    </head>
+
+    <body >
+
+        <div class="container-fluid">
+            <div class="container section-intro">
+                <h1>
+                    <span class="small">Koppel &amp; Kyk in Dalaland <i>presents</i></span>
+                    <em>frowned upon</em>
+                    <span class="small"><i>a </i> pixels on perspective <i>collection</i></span>
+                </h1>
+
+                <div class="wrapper" style="margin:450px 0; width:100% !important">
+
+                    <div style="width:100%">
+                      <p style="width:100%">the death of me<br/>
+                      reborn into the perspectivelessness of we<br/>
+                      -<br/>
+                      struggling to put aside my petty perspective<br/>
+                      so that I may scribe with sincerity<br/>
+                      the essence of my soul <br/><br/><small>HUGH MOSNO</small></p>
+                    </div>
+
+       
+
+            </div>
+        </div>
+
+        <div class="caption"><img src="images/onelove.png" align="left" style="margin:0 0 0; width:100px" /><a href="https://themeticus.github.io/onelove/#sharps/truth-be-told" target="_blank" style="display:block; float:left"><strong>one love</strong><br/><br/>a collection of quotes, quips &amp; stories by hugh mosno<br/>visuals / lindsey appolis &amp; sipho mpongo <br/>web / themeticus </a><br clear="all"/></div>
+
+        <div class="container-fluid section-gnat-bull" id="femmebot">
+        <div style="background:rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%">
+        
+            <div class="container">
+              
+             
+                
+                <h2>see<br/>the<br/>forest</h2>
+                <p>trees are love manifest<br/>the trees don’t know how to lie<br/>when a forest grows<br/>its like a giant truth made of love</p>
+            </div>
+               
+            </div>
+        </div>
+
+
+        <div class="container-fluid section-crow-pitcher" id="michaelryap">
+
+            <div class="container">
+
+                <h2><span>one love</span></h2>
+
+                <p>all the love in me, is the same love found in you, when you see another human, you’re just seeing another version of yourself, everything from the very best to the very worst. we are all on the same path, as a single entity, separated only by our perspectives</p>
+
+
+            </div>
+        </div>
+
+
+         <div class="caption"><img src="images/021.png" align="left" style="margin:0 0 0; width:100px" /><a href="https://themeticus.github.io/021/#biggie/girl-in-the-hood" target="_blank" style="display:block; float:left"><strong>021</strong><br/><br/>a collection of quotes &amp; stories by hugh mosno<br/>visuals / lindsey appolis &amp; sipho mpongo <br/>web / themeticus </a>
+         <br clear="all"/></div>
+
+        <div class="container-fluid section-two-bags" id="femmebot-02">
+        <div style="background:rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%">
+ 
+            <div class="container">
+                <h2>girls in the hood</h2>
+                <p><em>“how long have you been selling weed?”</em> I asked <em>“yor long yong, long, sieker since adnaan them left”</em> she’s chatting on her phone and steering the car, not really worried about the white line. a calm fearlessness worn as a scarf throughout her daily movements. she pushes a healthy 250 grams per week on average but it can sky-rocket without warning. a wad of cash sits safely in her left breast, of which she has double the d necessary for a descent camouflage. she dates gang leaders and hardened criminals who have years behind their name and balances it with her warm and extended family. her favorite hooks are <em>“yussis man”</em>, <em>“what was I gonna say now”</em>, <em>“now check here”</em> and <em>“don’t talk kak”</em> as can be heard in every hour of every day. her fearlessness is what struck me most, she’s quite tough for a girl and I’m not sure in her heart she wants to be <em>“taken care of”</em> as it goes, but I don’t think she’ll object to it. I prod further <em>“what do you want to do with this business?”</em> she smiles and says <em>“yor honestly, I just want to buy me a nice car!”</em></p>
+                 <br clear="all"/>
+            </div>
+            </div>
+        </div>  
+
+        <div class="container-fluid section-crow-pitcher" id="michaelryap">
+
+            <div class="container">
+
+                <h2><span>021</span></h2>
+
+                <p>distance traveled has little impact, on the broad variation in strokes love paints each unique living thing with… no matter how far you’ve come or still have to go, the love is <strong>always</strong> right where you are</p>
+
+
+            </div>
+        </div>
+
+                <div class="caption"><img src="images/thatbra.png" align="left" style="margin:0 0 0; width:100px; border: 1px solid #ddd;" /><a href="https://themeticus.github.io/thatbra/" target="_blank" style="display:block; float:left"><strong>hat'bra</strong><br/><br/>a collection of captions by hugh mosno<br/>visuals / UNDEREXPOSED PROJECT &amp; CCA @ UCT <br/>web / themeticus </a><br clear="all"/></div>
+        <div class="container-fluid section-rivers" id="bengold">
+            <div style="background:rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%">
+            <div class="container">
+            
+                
+                
+                <p>that bra that thinks he can save the world with his salary</p>
+            </div>
+            </div>
+        </div>
+                <div class="container-fluid section-crow-pitcher" id="michaelryap">
+
+            <div class="container">
+
+                <h2><span>that bra</span></h2>
+
+                <p>we all get our turn to be a poes, skipping your turn is an art form.</p>
+
+
+            </div>
+        </div>
+
+
+
+
+               <div class="caption"><img src="images/lovefromthe021.png" align="left" style="margin:0 0 0; width:100px; border: 1px solid #ddd;" /><a href="https://themeticus.github.io/021/#biggie/shes-the-one" target="_blank" style="display:block; float:left"><strong>love from the 021</strong><br/><br/>interctive web movie by hugh mosno<br/>visuals / Lindsey Appolis<br/>web / themeticus </a><br clear="all"/></div>
+
+        <div class="section-the-serpent-and-the-eagle" id="jacoborjake" >
+         <div style="background:rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%">
+          <div class="caption"></div>
+          <div class="container">
+            <h2>jou nwaatas kom haal jou in</h2>
+             
+          </div>
+          </div>
+        </div>
+             
+                  <div class="container-fluid section-crow-pitcher" id="michaelryap">
+
+            <div class="container">
+
+                <h2><span>love from the 021</span></h2>
+
+                <p>if you must fight, try to love with the same conviction</p>
+
+
+            </div>
+        </div>           
+
+
+
+        <div class="section-the-serpent-and-the-eagle" id="jacoborjake"  style="display:none">
+
+          <div class="caption"></div>
+          <div class="container">
+            <h2>The<br />mozzy<br /><span>&amp;</span><br />The<br />manny</h2>
+             <p>her meal courses through my body. her nutritional options shaped by design. her choices clear, and still, she is persecuted for being. today I sat still while she took as much blood as she needed from me. not even mine to give, I sat as still as the earth does when we take from her. the mosquito is my sister, from another other, and we are experiencing this one love together</p>
+          </div>
+        </div>
+
+
+        <div class="container-fluid section-fox-lion" id="Linnk" style="display:none">
+            <div class="container">
+    
+                <div class="caption"></div>
+                <h2>english flavoured water</h2>
+                <p>its hard to imagine wisdom sprouting from a dialect other than those deemed worthy by your perspective</p>
+            </div>
+        </div><!-- /section-fox-lion -->
+
+
+        <div class="container-fluid section-the-old-hound" id="joanrho-02" style="display:none">
+            <div class="container">
+
+                <div class="caption">
+    
+                </div>
+                <h2>Unsung</h2>
+                <p>sometimes…<br/>to tell the true story<br/>you need to tell the story of your lie</p>
+            </div>
+        </div>
+        <!-- /.the-old-hound -->
+
+        <div class="container-fluid section-moon-mother" id="femmebot-04">
+            <div class="container">
+                <div class="caption">
+                <!--
+                    <a href="https://www.google.com/fonts/specimen/Vast+Shadow" target="_blank">Vast Shadow</a>,
+                    <a href="https://www.google.com/fonts/specimen/Oswald" target="_blank">Oswald</a>,
+                    <a href="https://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>,
+                    <a href="https://www.google.com/fonts/specimen/Playfair+Display+SC" target="_blank">Playfair Display SC</a>-->
+                </div>
+                
+                <p class="opentype">
+                    <span class="ital">rise up brothers, build shit that lasts &amp; forces the centuries to pass, before any improvement can cast a shadow on your design</span>
+                    <span class="small-cap"></span>
+                    <span class="reg"></span>
+                    <span class="bold-ital"></span>
+                    <span class="bold"><br/></span>
+                    <span class="black"><br/></span>
+                </p>
+            </div>
+        </div>
+
+
+<style>
+    
+    .bio div span {
+            text-transform: uppercase;
+    font-family: 'Unica One', Helvetica, Arial, sans-serif;
     padding: 1.5%;
     font-size: 0.9em;
     background: black;
@@ -49,102 +282,66 @@ div>span {
     display: block;
     width: auto;
     float: left;
-    color:#fff;
+    color: #fff;
     text-align: left;
     display: block;
     clear: left;
-    opacity: 0.4
+    opacity: 0.4;
+    }
 
-}
-div>span>a {
-  color:orange;
-}
+    .colab {
+        background-color:#000;
+    }
+    .colab span {
+            text-transform: uppercase;
+    font-family: 'Unica One', Helvetica, Arial, sans-serif;
+    padding: 1.5%;
+    font-size: 0.9em;
+    background: black;
+    margin: 0;
+    display: block;
+    width: auto;
+    float: left;
+    color: #555;
+    text-align: left;
+    display: block;
+    clear: left;
+    opacity: 0.7;
+    }
+
+    .colab span a {
+     text-decoration: none;
+     color: darkgoldenrod;
+    }
+        .colab span a:hover {
+     text-decoration: underline;
+     color: darkgoldenrod;
+    }
 </style>
-</head>
-<body>
-
-<section class="sample" id="darwin">
-    <section class="text">
-        <h1>Koppel &amp; Kyk in Dalaland</h1>
-        <h1 class="small">based on accrued stories</h1>
-
-    </section>
-  </section>
-
-    <section class="bio">
-      <div style="width:33.33%; float:left; background-image:url(img/lindsey-appolis.jpg);height: 200px;background-size: cover;opacity: 0.6">
+   
+   <div style="background-color:#000 !important">
+<section class="bio" style="">
+      <div style="width:33.33%; float:left; background-image:url(images/lindsey-appolis.jpg);height: 200px;background-size: cover;opacity: 0.6">
          <span>Lindsey Appolis</span>
       </div>
            
-                 <div style="width:33.33%; float:left; background-image:url(img/sipho-mpongo.jpg);height: 200px;background-size: cover;    background-position: top;opacity: 0.6">
+                 <div style="width:33.33%; float:left; background-image:url(images/sipho-mpongo.jpg);height: 200px;background-size: cover;    background-position: top;opacity: 0.6">
          <span>Sipho Mpongo</span>
       </div>
 
-            <div style="width:33.33%; float:left; background-image:url(img/hugh-mosno.jpg);height: 200px;background-size: cover; opacity: 0.6">
+            <div style="width:33.33%; float:left; background-image:url(images/hugh-mosno.jpg);height: 200px;background-size: cover; opacity: 0.6">
          <span>Hugh Mosno</span>
       </div>       
     </section>
-  </section>
-  <br clear="all" />
-
-<section class="sample" id="darwin">
-    <section class="text">
-
-    <h4 style="text-transform:lowercase; margin:250px 0 450px">these pixels know how to lie</h4>
-
-    <div style="width:80%;margin:0 auto; position:relative; margin-bottom:100px">
-
-        <span style="position:absolute; top:0; left:0;">one love</span>
-    <a href="https://themeticus.github.io/onelove/"><img src="img/onelove.png" width="100%" style=""/></a>
-
-           
-
-
-
-    </div>
-
-        <div style="width:80%;margin:0 auto; position:relative; margin-bottom:100px">
-        <span style="position:absolute; top:0; left:0;">the 021</span>
-    <a href="https://themeticus.github.io/021/"><img src="img/021.png" width="100%" style=""/></a>
-
-
-
-    </div>
-
-            <div style="width:80%;margin:0 auto; position:relative; margin-bottom:100px">
-        <span style="position:absolute; bottom:7px; right:0;">love from the 021</span>
-    <a href="https://themeticus.github.io/lovefromthe021/"><img src="img/lovefromthe021.png" width="100%" style=""/></a>
-
-
-
+    <br clear="all" />
+    
+    <div class="colab"><span>visuals belong to their respective trigger fingers. all stories &amp; code are <a href="https://github.com/themeticus/themeticus.github.io">open source</a>, created using <a href="https://github.com/jquery/jquery">open</a> <a href="https://github.com/alvarotrigo/fullPage.js">source</a> <a href="https://github.com/alvarotrigo/multiscroll.js">software</a>.  you can <a href="https://github.com/themeticus/themeticus.github.io/issues">flag an issue</a> or <a href="https://github.com/themeticus/themeticus.github.io/pulls">create a feature</a> yourself to improve the quality of this collection of work. constructive criticism through contribution, open source in full bloom, but aweh</span></div>
     </div>
 
 
-            <div style="width:80%;margin:0 auto; position:relative; margin-bottom:100px">
-        <span style="position:absolute; bottom:7px; right:0;">that bra</span>
-    <a href="https://themeticus.github.io/thatbra/"><img src="img/thatbra.png" width="100%" style=""/></a>
+        <script src="scripts/jquery-1.11.1.min.js"></script>
+        <script src="scripts/scripts.js"></script>
 
 
-
-    </div>
-
-    </section>
-  </section>
-
-
-<section class="sample" id="darwin">
-    <section class="text">
-
-    <h4 style="text-transform:lowercase; margin:150px 0 300px">
-to none but all forever</h4>
-
-
-    </section>
-  </section>
-
-
-<div><span>all visuals belong to their respective trigger fingers. all stories &amp; code are <a href="https://github.com/themeticus/themeticus.github.io">open source</a> and created using <a href="https://github.com/jquery/jquery">open</a> <a href="https://github.com/alvarotrigo/fullPage.js">source</a> <a href="https://github.com/alvarotrigo/multiscroll.js">software</a>.  you can <a href="https://github.com/themeticus/themeticus.github.io/issues">flag an issue</a> or <a href="https://github.com/themeticus/themeticus.github.io/pulls">create a feature</a> yourself to improve the quality of this collection of work. constructive criticism through contribution, open source in full bloom, but aweh, you mos know</span></div>
-
-</body>
-<script src="js/app.js"></script>
+    </body>
 </html>
