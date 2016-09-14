@@ -1,1 +1,2 @@
-# themeticus.github.io
+# themeticus
+by Hugh Mosno
