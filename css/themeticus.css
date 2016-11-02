@@ -174,7 +174,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-moon-mother .caption a:hover { color: #000; text-align: left; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
 .section-moon-mother h2 { font: 34px/30px 'Vast Shadow', 'Arial Black'; color: #865; width: 620px; margin: 0 auto; text-transform: uppercase; padding: 14px 0 13px 0; border-top: 4px double #676767; border-bottom: 4px double #676767; }
 .section-moon-mother h2 span { font: 300 16px 'Oswald', Helvetica, Arial; margin: 0 5px 0 3px; color: #555; letter-spacing: .05em; }
-.section-moon-mother p { width: 100%; color: #9d9e9d; margin: 0 auto; }
+.section-moon-mother p { width: 100%; color: #9d9e9d; margin: 0 auto;     margin: 300px 0px 300px 20px; }
 .section-moon-mother .black-ital { font: italic 900 130px/90px 'Playfair Display', Georgia, serif; margin-bottom: 12px; display: block; }
 .section-moon-mother .ital { font: italic 400 60px/60px 'Playfair Display', Georgia, serif; margin: 0 0 8px 6px; display: block; }
 .section-moon-mother .small-cap { font: 400 18px/36px 'Playfair Display SC', Georgia, serif; letter-spacing: .17em; margin: 0 0 0 12px; text-transform: uppercase; display: block; }
@@ -344,12 +344,12 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-crow-raven q:after, .section-crow-raven q q:after { content: close-quote; }
 .section-crow-raven q { quotes: '\201c' '\201d' '\2018' '\2019'; }
 @media only screen and ( min-width: 33.75em ) {
-	.section-crow-raven { font-size: 100%; }
+  .section-crow-raven { font-size: 100%; }
 }
 @media only screen and ( min-width: 33.75em ) {
-	.section-crow-raven { background-size: 740px auto; }
-	.section-crow-raven p { padding-left: 25%; }
-	.section-crow-raven p:last-child { padding-left: 0; }
+  .section-crow-raven { background-size: 740px auto; }
+  .section-crow-raven p { padding-left: 25%; }
+  .section-crow-raven p:last-child { padding-left: 0; }
 }
 
 
@@ -454,10 +454,10 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
-	.section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
-	.section-pomegranate h2{font-size: 4.2rem;}
-	.section-pomegranate h2 span{font-size: 1.75rem;}
-	.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
+  .section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
+  .section-pomegranate h2{font-size: 4.2rem;}
+  .section-pomegranate h2 span{font-size: 1.75rem;}
+  .section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -634,17 +634,24 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
     margin: 0;
     display: block;
     width: auto;
-    float: left;
-    color: #555;
+    color: white;
     text-align: left;
     display: block;
     clear: left;
-    opacity: 0.7;
-    }
+    opacity: 0.5;
+    background-image: url(../images/side-roads.jpg);
+    background-size: cover;  
+        padding: 50px 10px 333px 20px;
+    text-shadow: 1px 2px 4px #444;
+
+
+      
+  }
 
     .colab span a {
      text-decoration: none;
-     color: darkgoldenrod;
+     color: black;
+    background: white;
     }
         .colab span a:hover {
      text-decoration: underline;
@@ -683,6 +690,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 .sipho {
     background-image:url(../images/sipho-mpongo.jpg);
+    background-position: 60%;
 }
 
 .verdis {
