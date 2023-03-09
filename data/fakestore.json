@@ -5,7 +5,7 @@
     "price": 10500,
     "description": "Spacious suites, grand gardens and attentive service await at Residence Vive La Vie, a peaceful self-catering guesthouse in the heart of Franschhoek.",
     "category": "accommodation",
-    "image": "http://inside-guide.test/app/uploads/2018/10/Vive-La-Vie-Residence.jpg",
+    "image": "https://insideguide.co.za/cape-town/app/uploads/2018/10/Vive-La-Vie-Residence.jpg",
     "rating": {
     "rate": 3.9,
     "count": 120
@@ -13,23 +13,11 @@
     },
     {
     "id": 2,
-    "title": "Get Lost in Luxury Lodgings at This Discreet Boutique Hotel",
-    "price": 5700,
-    "description": "A mere stone's throw from Franschhoek's buzzy main road, The Last Word boutique hotel offers a tranquil townside escape laced in luxury.",
-    "category": "men's clothing",
-    "image": "http://inside-guide.test/app/uploads/2018/10/last-word-franschhoek.jpg",
-    "rating": {
-    "rate": 4.1,
-    "count": 259
-    }
-    },
-    {
-    "id": 3,
     "title": "Sumptuous Seclusion at This Luxe-Country Franschhoek Villa",
     "price": 7900,
     "description": "Surrounded by a tranquil garden on the edge of Le Lude estate in Franschhoek, Lily Pond House is the stuff of hideaway fantasies.",
     "category": "men's clothing",
-    "image": "http://inside-guide.test/app/uploads/2018/10/franschhoek-self-catering-accommodation-1.jpg",
+    "image": "https://insideguide.co.za/cape-town/app/uploads/2018/10/franschhoek-self-catering-accommodation-1.jpg",
     "rating": {
     "rate": 4.7,
     "count": 500
